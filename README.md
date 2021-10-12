@@ -4,6 +4,8 @@ A starting point for visualizing [Road Runner](https://github.com/acmerobotics/r
 
 ## Getting Started
 
+You'll need a fairly up-to-date version of IntelliJ IDEA or Android Studio.
+
 1. Download or clone the repository.
 2. Open the project in IntelliJ IDEA or Android Studio. If prompted, import the Gradle project.
 3. Edit `src/main/java/MeepMeepPlayground.java` and run.
