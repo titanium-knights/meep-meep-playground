@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'io.github.titanium_knights.ant'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.NoahBres:MeepMeep:1.0.6'
+}
+
+application {
+    mainClassName = 'MeepMeepPlayground'
+}
